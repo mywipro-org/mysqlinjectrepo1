@@ -8,7 +8,7 @@ namespace SqlInjectionnProblemApp
     {
         static void Main(string[] args)
         {
-            //CaseStudy1();
+            CaseStudy1();
 
             string connectionString = "Data Source=.\\sqlexpress;Initial Catalog=SwabhavDB;Integrated Security=True";
             SqlConnection connection = new SqlConnection(connectionString);
